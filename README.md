@@ -25,7 +25,12 @@ I am working on learning (or have learnt) the following stacks:
 
 ## Web-Based AR with Real-Time SLAM (Academic Project) ~2025
 Developed an augmented reality system featuring real-time SLAM running directly in the browser via WebAssembly. 
-* Built using **C++, JavaScript, and HTML/CSS** (and various other things).
+* Built using **C++, JavaScript (ThreeJS), WebAssembly, and HTML/CSS** (and various other things).
+* Runs on Mobile, Mobile but with Google Cardboard-like distortion (Fragment Shaders), Desktop/Laptop, WSL and Nvidia Jetson NX (embedded AI supercomputer). All had serviceable performance for AR.
+* Includes extensive data and event logging (real-time applications are really hard to optimise without logs) and a side panel 3D view to check if SLAM is working appropriately (display works on all platforms mentioned above).
+* Definitely not production-grade software, SLAM fails inevitably given device constraints and after extended use, the backend and loop closure were disabled to maximise performance on CPU-bound hardware; the system acted more as a short-term Visual Odometry system, which was sufficient for AR Ruler/Video Player use cases.
+* Github Actions (CI/CD Configs), ROS2 Nodes, bash scripting, ThreeJS, JavaScript state management and more were also used. Tried to do true wireless streaming of frames instead of wired input, but latency was just too high with free webstreaming options...
+* Found to be more accurate than iOS and Android AR Ruler apps today across different lighting and environment scenarios, the D435i RGB-D stereo camera was supplied by the school, so the project used that as the input device, but technically any stereo camera with a high enough resolution (maybe around $100) should also work if the user modifies the right files to account for changes in resolution.
 * **Repository:** [AlvaAR-Ubuntu-20.04](https://github.com/NAIRBS/AlvaAR-Ubuntu-20.04)
 * **OS Specific Written Documentation and Setup:** [ORBSLAM3-Ubuntu-20.04](https://github.com/NAIRBS/ORBSLAM3-Ubuntu-20.04)
 
