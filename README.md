@@ -1,4 +1,5 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Brian Soh
+<!-- Technically, I should download the files and host them myself to prevent components from breaking due to cascading third-party dependencies that I cannot control. Practically, I'm kinda too lazy to do that, and I believe in Giphy as it serves media across Meta's services as an official provider. --> 
+Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" /> My name is Brian Soh.
 ==================================================================================================================================
 
 Computer Engineer
@@ -10,7 +11,7 @@ I've been coding in academic projects for a few years, but I haven't built anyth
 * ✉️  You can contact me at [sohhanyu@gmail.com](mailto:sohhanyu@gmail.com)
 * 🚀  I'm currently working on [my blog](http://nairbs.github.io/)
 * 🧠  I'm currently learning React, Node.JS, Javascript/Typescript, PostgreSQL
-* 💬  Technically, I have some experience with: C, C++, C#, .NET, Java, JavaScript, Python, PowerShell/Batch/Bash Scripting, HTML/CSS, but it's been years since I've touched them.
+* 💬  Technically, I have some experience creating applications with C, C++, C#, .NET, Java, JavaScript, Python, PowerShell/Batch/Bash Scripting, HTML/CSS, but it's been years since I've touched them.
 
 I am working on learning (or have learnt) the following stacks:
 <p align="left">
