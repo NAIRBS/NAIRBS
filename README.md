@@ -10,8 +10,8 @@ I've been coding in academic projects for a few years, but I haven't built anyth
 * 🖥️  Read my Blog at [Blog](http://nairbs.github.io/)
 * ✉️  You can contact me at [sohhanyu@gmail.com](mailto:sohhanyu@gmail.com)
 * 🚀  I'm currently working on [my blog](http://nairbs.github.io/)
-* 🧠  I'm currently learning React, Node.JS, Javascript/Typescript, PostgreSQL
-* 💬  Technically, I have some experience creating applications with C, C++, C#, .NET, Java, JavaScript, Python, PowerShell/Batch/Bash Scripting, HTML/CSS, but it's been years since I've touched them.
+* 🧠  I'm currently learning the PERN stack (PostgreSQL + Express.js/NestJS + React + Node.js) and brushing up on Typescript and Javascript.
+* 💬  Technically, I have some experience creating Mobile/Desktop/Web applications with C, C++, C#, .NET, Java, JavaScript, Python, PowerShell/Batch/Bash/Zsh Scripting, HTML/CSS (but it's been years since I've touched them).
 
 I am working on learning (or have learnt) the following stacks:
 <p align="left">
