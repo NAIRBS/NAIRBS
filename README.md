@@ -1,4 +1,5 @@
-<!-- Technically, I should download the files and host them myself to prevent components from breaking due to cascading third-party dependencies that I cannot control. Practically, I'm kinda too lazy to do that, and I believe in Giphy as it serves media across Meta's services as an official provider. --> 
+<!-- Technically, I should download the files and host them myself to prevent components from breaking due to cascading third-party dependencies that I cannot control. 
+However, I believe in Giphy, as it serves media across Meta's services as an official provider. --> 
 Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" /> My name is Brian Soh.
 ==================================================================================================================================
 
@@ -13,7 +14,7 @@ if (!me.change(world)) { // If I cannot change the world...
 
 * 🖥️  Read my Blog at [Blog](http://nairbs.github.io/)
 * ✉️  You can contact me at [sohhanyu@gmail.com](mailto:sohhanyu@gmail.com)
-* 🚀  I'm currently working on my portfolio website. (not public yet)
+* 🚀  I'm currently working on [my portfolio website](https://nairbs.github.io/brian-soh/)
 * 🧠  I'm currently learning the PERN stack (PostgreSQL + Express.js/NestJS + React + Node.js) and brushing up on Typescript and Javascript.
 * 💬  I have some experience creating Mobile/Desktop/Web applications with C, C++, C#, .NET, Java, JavaScript, Python, PowerShell/Batch/Bash/Zsh Scripting, HTML/CSS.
 
@@ -30,16 +31,16 @@ I am working on learning (or have learnt) the following stacks:
 
 ## Web-Based AR with Real-Time SLAM (Academic Project) ~2025
 Developed an augmented reality system featuring real-time SLAM running directly in the browser via WebAssembly. 
-* Built using **C++, JavaScript (ThreeJS), WebAssembly, and HTML/CSS** (and various other things).
-* Runs on Mobile, Mobile but with Google Cardboard-like distortion (Fragment Shaders), Desktop/Laptop, WSL and Nvidia Jetson NX (embedded AI supercomputer). All had serviceable performance for AR.
+* Built using **C++, JavaScript (Three.js), WebAssembly, and HTML/CSS** (and various other things).
+* Runs on Mobile (normal display), Mobile but with Google Cardboard-like distortion (Fragment Shaders), Desktop/Laptop, WSL and Nvidia Jetson NX (embedded AI supercomputer). All had serviceable performance for AR.
 * Includes extensive data and event logging (real-time applications are really hard to optimise without logs) and a side panel 3D view to check if SLAM is working appropriately (display works on all platforms mentioned above).
-* Definitely not production-grade software, SLAM fails inevitably given device constraints and after extended use, the backend and loop closure were disabled to maximise performance on CPU-bound hardware; the system acted more as a short-term Visual Odometry system, which was sufficient for AR Ruler/Video Player use cases.
-* Github Actions (CI/CD Configs), ROS2 Nodes, bash scripting, ThreeJS, JavaScript state management and more were also used. Tried to do true wireless streaming of frames instead of wired input, but latency was just too high with free webstreaming options...
+* Definitely not production-grade software; SLAM fails inevitably given device constraints after extended use. The backend and loop closure were disabled to maximise performance on CPU-bound hardware; the system acted more as a short-term Visual Odometry system, which was sufficient for AR Ruler/Video Player use cases.
+* GitHub Actions (CI/CD Configs), ROS2 Nodes, bash scripting, ThreeJS, JavaScript state management and more were also used. Tried to do true wireless streaming of frames instead of wired input, but latency was just too high with free web streaming options...
 * Found to be more accurate than iOS and Android AR Ruler apps today across different lighting and environment scenarios, the D435i RGB-D stereo camera was supplied by the school, so the project used that as the input device, but technically any stereo camera with a high enough resolution (maybe around $100) should also work if the user modifies the right files to account for changes in resolution.
 * **Repository:** [AlvaAR-Ubuntu-20.04](https://github.com/NAIRBS/AlvaAR-Ubuntu-20.04)
 * **OS Specific Written Documentation and Setup:** [ORBSLAM3-Ubuntu-20.04](https://github.com/NAIRBS/ORBSLAM3-Ubuntu-20.04)
 
-Try the below demo here: [Video Stream AR Ruler Visualizer](https://nairbs.github.io/AlvaAR-Ubuntu-20.04/examples/public/rgbd_video_AR_Ruler_visualizer.html)
+Try the demo below here: [Video Stream AR Ruler Visualizer](https://nairbs.github.io/AlvaAR-Ubuntu-20.04/examples/public/rgbd_video_AR_Ruler_visualizer.html)
 ![AR Ruler](https://github.com/user-attachments/assets/fa7505c0-54e9-4764-b0fb-5f062d9b4910)
 
 [Video Stream Video Player](https://nairbs.github.io/AlvaAR-Ubuntu-20.04/examples/public/rgbd_video_player.html)
