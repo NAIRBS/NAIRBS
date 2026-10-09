@@ -5,13 +5,17 @@ Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="
 Computer Engineer
 -----------------
 
-I've been coding in academic projects for a few years, but I haven't built anything real...until now? (Will update later)
+```Javascript
+if (!me.change(world)) { // If I cannot change the world...
+  me.change(me); // ...I change myself.
+}
+```
 
 * 🖥️  Read my Blog at [Blog](http://nairbs.github.io/)
 * ✉️  You can contact me at [sohhanyu@gmail.com](mailto:sohhanyu@gmail.com)
-* 🚀  I'm currently working on [my blog](http://nairbs.github.io/)
+* 🚀  I'm currently working on my portfolio website. (not public yet)
 * 🧠  I'm currently learning the PERN stack (PostgreSQL + Express.js/NestJS + React + Node.js) and brushing up on Typescript and Javascript.
-* 💬  Technically, I have some experience creating Mobile/Desktop/Web applications with C, C++, C#, .NET, Java, JavaScript, Python, PowerShell/Batch/Bash/Zsh Scripting, HTML/CSS (but it's been years since I've touched them).
+* 💬  I have some experience creating Mobile/Desktop/Web applications with C, C++, C#, .NET, Java, JavaScript, Python, PowerShell/Batch/Bash/Zsh Scripting, HTML/CSS.
 
 I am working on learning (or have learnt) the following stacks:
 <p align="left">
